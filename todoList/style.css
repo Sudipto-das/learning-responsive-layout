@@ -1,0 +1,82 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h1{
+    margin: 1em 0;
+    color: #fff;
+}
+form{
+    margin-bottom: 1em;
+}
+input{
+    font-size: 1em;
+    font-weight: 600;
+    border: 1px solid gray;
+    border-radius: 0.5em;
+    max-width:50%;
+    padding: 0.8em 1em;
+}
+.addbtn{
+    padding: 0.9em 1.5em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.container{
+    /* border: 1px solid red; */
+    width:80%;
+    margin: 0.5em auto;
+    text-align: center;
+    background-color: #800080;
+    padding: 0.8em 0;
+}
+ul{
+    margin: 0;
+    list-style: none;
+    
+    
+}
+ li{
+    font-family: 'Sofia Sans', sans-serif;
+    background-color: 	#5D3FD3;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5em ;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    margin-bottom: 0.4em;
+    border-radius: 0.5em;
+}
+ul li button{
+    margin: 0;
+    margin-left: .5em;
+    padding: 0.9em 1.5em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+
+.list{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
