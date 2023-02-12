@@ -142,4 +142,32 @@ nav{
 .logo{
     margin-right: 1em;
 }
+@media (max-width:650px) {
+    .row{
+        flex-direction: column;
+    }
+    .hero__text{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .hero_img{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+    .container{
+        padding: 2em 0;
+    }
+    .primary-content{
+        width: 100% ;
+    }
+    .sideber{
+        width: 100%;
+    }
+    .logo{
+        width: 10%;
+    }
+    
+}
+
 
