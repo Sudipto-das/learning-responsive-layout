@@ -25,7 +25,7 @@ input{
     max-width:50%;
     padding: 0.8em 1em;
 }
-.addbtn{
+#add-task-btn{
     padding: 0.9em 1.5em;
     border: none;
     border-radius: 0.5em;
@@ -60,7 +60,7 @@ ul{
     font-weight: 600;
     letter-spacing: 0.15rem;
     margin-bottom: 0.4em;
-    border-radius: 0.5em;
+    border-radius: 0.5em; */
 }
 ul li button{
     margin: 0;
@@ -78,5 +78,14 @@ ul li button{
     width: 50%;
     margin: 0 auto;
 }
+/* .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: lightgray;
+    color: white;
+  } */
 
 
