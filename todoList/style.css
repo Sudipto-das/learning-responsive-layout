@@ -16,6 +16,7 @@ h1{
 }
 form{
     margin-bottom: 1em;
+    
 }
 input{
     font-size: 1em;
@@ -39,9 +40,11 @@ input{
     width:80%;
     margin: 0.5em auto;
     text-align: center;
-    background-color: #800080;
+    
     padding: 0.8em 0;
 }
+.top-section
+{background-color: #800080;}
 ul{
     margin: 0;
     list-style: none;
@@ -75,7 +78,7 @@ ul li button{
 
 .list{
     text-align: center;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
 /* .task-item {
@@ -87,5 +90,18 @@ ul li button{
     background-color: lightgray;
     color: white;
   } */
+  @media (max-width:560px) {
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    input{
+        width: 80%;
+        margin: 0.6em auto;
+
+    }
+  }
 
 
