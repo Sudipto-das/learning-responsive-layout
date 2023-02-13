@@ -20,8 +20,12 @@ class Task {
       <div>${this.name}</div>
       <div>Start Date: ${this.startDate}</div>
       <div>End Date: ${this.endDate}</div>
+      <button class="delete-task">Delete</button>
     `;
     taskList.appendChild(taskItem);
+    taskItem
+    .querySelector(".delete-task")
+    .addEventListener("click", () => taskList.remove());
   }
 }
 
@@ -43,10 +47,10 @@ taskForm.addEventListener("submit", e => {
 });
   
 
-const deletebutton = document.querySelector("#delete")
-deletebutton.addEventListener("click",function(){
-  taskList.remove()
-})
+// const deletebutton = document.querySelector("#delete")
+// deletebutton.addEventListener("click",function(){
+//   taskList.remove()
+// })
 
 // Deleting task
 
